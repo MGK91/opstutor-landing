@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>OpsTutor AI - Smarter DevOps Learning</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet"/>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"/>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: 'Inter', sans-serif;
+      background: #f7f9fc;
+      color: #2d3436;
+      line-height: 1.6;
+    }
+    header {
+      background: #0f172a;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 2.5rem;
+    }
+    header p {
+      font-size: 1.2rem;
+      margin-top: 0.5rem;
+    }
+    nav {
+      margin-top: 1rem;
+    }
+    nav a {
+      color: #00d1b2;
+      margin: 0 1rem;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    section {
+      padding: 4rem 2rem;
+      text-align: center;
+    }
+    section h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+    section p {
+      max-width: 700px;
+      margin: 0 auto;
+      font-size: 1.1rem;
+    }
+    .cta {
+      background: #e0f7fa;
+      border-top: 2px solid #00b894;
+    }
+    form {
+      margin-top: 2rem;
+    }
+    input, button {
+      font-size: 1rem;
+    }
+    input {
+      width: 100%;
+      padding: 12px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+    }
+    button {
+      background: #00b894;
+      color: white;
+      border: none;
+      padding: 12px 24px;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+    button:hover {
+      background: #019875;
+    }
+    footer {
+      background: #0f172a;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <header data-aos="fade-down">
+    <h1>OpsTutor AI</h1>
+    <p>Your AI-powered tutor for DevOps, SRE, MLOps & Cloud – at your own pace.</p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#waitlist">Join Waitlist</a>
+    </nav>
+  </header>
+
+  <section id="about" data-aos="fade-up">
+    <h2>🚀 Why OpsTutor AI?</h2>
+    <p>
+      Traditional online courses are rigid. OpsTutor AI is a smart agent that understands your goals, experience, and pace — guiding you like a personal mentor. Whether you're new to DevOps or preparing for high-stakes interviews, it adapts and grows with you.
+    </p>
+  </section>
+
+  <section class="cta" id="waitlist" data-aos="zoom-in">
+    <h2>🎯 Ready to Learn Smarter?</h2>
+    <p>We’re building something amazing. Join the waitlist and help shape the future of DevOps education.</p>
+
+    <form action="https://formspree.io/f/xnnpgygz" method="POST" style="max-width: 500px; margin: auto; margin-top: 30px;">
+      <label for="name">Your Name</label><br/>
+      <input type="text" name="name" required placeholder="John Doe"/>
+
+      <label for="email">Email</label><br/>
+      <input type="email" name="email" required placeholder="you@example.com"/>
+
+      <label for="experience">Years of Experience</label><br/>
+      <input type="text" name="experience" required placeholder="3 years, 5+ years, fresher..."/>
+
+      <button type="submit">Join the Waitlist</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 OpsTutor AI. All rights reserved.</p>
+  </footer>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({ duration: 1000 });
+  </script>
+</body>
+</html>
+
